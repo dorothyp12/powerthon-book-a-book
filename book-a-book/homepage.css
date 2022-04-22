@@ -1,0 +1,118 @@
+
+
+.btn{
+    display:inline;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid red;
+    
+}
+  .btn {padding: 10px 24px;}
+  body{
+    background-image:url('images/brown.jpg');
+    height: 100vh;
+    background-size: cover;
+     background-position: center;
+  }
+  .btn2 img {
+    object-fit: fill;
+}
+ul.nav {
+  padding-left: 0px;
+  text-align: right;
+  margin-top: 25px;
+  
+}
+ul.nav  li {
+  display: inline-block;
+}
+
+ul.nav  li  a {
+  color: white;
+  text-decoration: none;
+  padding:5px 20px;
+  border:1px solid #fff;
+  transition:1s ease;
+}
+ul.nav li a:hover{
+  background-color: #fff;
+  color:#000
+}
+ul.nav{
+  font-family: Arial;
+  font-size: 15px;
+}
+ul.nav{
+  float:right;
+  list-style-type:none;
+  margin-top:25px;
+}
+
+ 
+ul{
+  float:right;
+  list-style-type:none;
+  margin-top:25px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color:#fff;
+  padding: 5px 20px;
+  border:1px solid #fff;
+  transition:0.6s ease;
+}
+ul li a:hover{
+  background-color: #fff;
+  color:#000;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #5b3c03cc;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 100px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 95%;
+  right: 20%;
+  transform: translate(-50%, -50%);
+}
+.dev{
+  color: #77e1ef;
+  font-size: large;
+}

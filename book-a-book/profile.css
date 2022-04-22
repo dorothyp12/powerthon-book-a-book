@@ -1,0 +1,70 @@
+body{
+    margin-top: 20px;
+    background-color: bisque;
+    background-image: linear-gradient(rgba(73, 63, 63, 0.5),rgba(54, 46, 46, 0.5)), url(images/book-1868068.jpg);
+    height: 100vh;
+    background-size: cover;
+     background-position: center;
+}
+.main{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+ul{
+    float: right;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(213, 177, 177);
+    padding: 9px 20px;
+    border: 1px solid rgb(156, 146, 126);
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+.topbar a{
+    float: right;
+    color: rgb(134, 140, 53);
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 26px;
+}
+.slidebar{
+    background-color: rgb(175, 203, 168);
+    color: rgb(170, 156, 68);
+    height: 100%;
+}
+.sidebar a{
+    margin-left: 10px;
+    display: block;
+    color: rgb(198, 179, 179);
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.btn{
+    display:inline;
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(213, 194, 194);
+    
+}
+h1{
+    padding-left: 30px;
+}      
+.row .card body img{
+    padding-top: 30px;
+    padding-left: 30px;
+}

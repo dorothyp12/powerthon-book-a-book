@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <title>Login page for book-a-book</title>
+    <link rel='stylesheet' href='login.css'>
+</head>
+<body>
+    <header>
+        <div class="logo">
+           <img src="images/logo.png">
+        </div>
+        <div class="title">
+            <h1>bထk-a-bထk</h1>
+        </div>
+        <div class="loginpage">
+           <div class="form">
+              <form class="register-form">
+                 <input type="text" placeholder="name"/>
+                 <input type="text" placeholder="password"/>
+                 <input type="text" placeholder="email id"/>
+                 <button>Create</button>
+                 <p class="message">Already Registered? <a href="homepage.html">Login</a></p>
+              </form>
+              <form class="login-form">
+                 <input type="text" placeholder="username"/>
+                 <input type="password" placeholder="password"/>
+                 <button>login</button>
+                 <p class="message">Not Registered? <a href="#">Register</a></p>
+              </form>
+              <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+              <script>
+                 $('.message a').click(function(){
+                 $('form').animate({height:"toggle", opacity: "toggle"}, "slow");
+                 });
+              </script>
+              <div class="main">
+              </div>
+           </div>
+        </div>
+    </header>
+</body>
+</html>
+
+
+
+
+    
